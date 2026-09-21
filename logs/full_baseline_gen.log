@@ -1,0 +1,5 @@
+nohup: ignoring input
+[load] Qwen/Qwen3-14B -> cuda:0
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:02<00:15,  2.19s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:04<00:13,  2.17s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:06<00:10,  2.17s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:08<00:08,  2.17s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:10<00:06,  2.16s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:12<00:04,  2.16s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:15<00:02,  2.16s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:16<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:16<00:00,  2.03s/it]
+[1/150] cs_001 sample 0 done (0.01/s, 2.4m elapsed)

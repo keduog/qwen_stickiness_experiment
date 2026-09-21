@@ -1,0 +1,57 @@
+nohup: ignoring input
+[load] Qwen/Qwen3-14B -> cuda:0
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:02<00:15,  2.16s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:04<00:12,  2.16s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:06<00:10,  2.15s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:08<00:08,  2.15s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:10<00:06,  2.15s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:12<00:04,  2.15s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:15<00:02,  2.14s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:16<00:00,  1.80s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:16<00:00,  2.01s/it]
+[1/51] pa_002 sample 0 done (0.01/s, 3.3m elapsed)
+[2/51] pa_002 sample 1 done (0.01/s, 6.3m elapsed)
+[3/51] pa_002 sample 2 done (0.00/s, 10.3m elapsed)
+[4/51] rp_002 sample 0 done (0.00/s, 16.3m elapsed)
+[5/51] rp_002 sample 1 done (0.00/s, 19.4m elapsed)
+[6/51] rp_002 sample 2 done (0.00/s, 23.5m elapsed)
+[7/51] rp_005 sample 0 done (0.00/s, 25.5m elapsed)
+[8/51] rp_005 sample 1 done (0.00/s, 27.8m elapsed)
+[9/51] rp_005 sample 2 done (0.01/s, 29.2m elapsed)
+[10/51] th_002 sample 0 done (0.00/s, 36.0m elapsed) [1 TRUNCATED]
+[11/51] th_002 sample 1 done (0.00/s, 42.3m elapsed)
+[12/51] th_002 sample 2 done (0.00/s, 49.0m elapsed)
+[13/51] th_004 sample 0 done (0.00/s, 55.8m elapsed)
+[14/51] th_004 sample 1 done (0.00/s, 62.5m elapsed)
+[15/51] th_004 sample 2 done (0.00/s, 69.3m elapsed)
+[16/51] co_004 sample 0 done (0.00/s, 73.3m elapsed)
+[17/51] co_004 sample 1 done (0.00/s, 76.8m elapsed)
+[18/51] co_004 sample 2 done (0.00/s, 81.3m elapsed)
+[19/51] th_007 sample 0 done (0.00/s, 86.9m elapsed)
+[20/51] th_007 sample 1 done (0.00/s, 93.1m elapsed)
+[21/51] th_007 sample 2 done (0.00/s, 98.5m elapsed)
+[22/51] th_008 sample 0 done (0.00/s, 105.1m elapsed)
+[23/51] th_008 sample 1 done (0.00/s, 111.9m elapsed) [2 TRUNCATED]
+[24/51] th_008 sample 2 done (0.00/s, 118.7m elapsed) [1 TRUNCATED]
+[25/51] th_009 sample 0 done (0.00/s, 123.6m elapsed)
+[26/51] th_009 sample 1 done (0.00/s, 128.3m elapsed)
+[27/51] th_009 sample 2 done (0.00/s, 134.1m elapsed)
+[28/51] rp_006 sample 0 done (0.00/s, 140.0m elapsed)
+[29/51] rp_006 sample 1 done (0.00/s, 144.6m elapsed)
+[30/51] rp_006 sample 2 done (0.00/s, 151.0m elapsed)
+[31/51] rp_007 sample 0 done (0.00/s, 158.5m elapsed)
+[32/51] rp_007 sample 1 done (0.00/s, 165.8m elapsed)
+[33/51] rp_007 sample 2 done (0.00/s, 172.9m elapsed)
+[34/51] rp_008 sample 0 done (0.00/s, 175.4m elapsed)
+[35/51] rp_008 sample 1 done (0.00/s, 177.8m elapsed)
+[36/51] rp_008 sample 2 done (0.00/s, 180.5m elapsed)
+[37/51] rp_009 sample 0 done (0.00/s, 187.3m elapsed)
+[38/51] rp_009 sample 1 done (0.00/s, 194.3m elapsed)
+[39/51] rp_009 sample 2 done (0.00/s, 200.9m elapsed)
+[40/51] rp_010 sample 0 done (0.00/s, 203.4m elapsed)
+[41/51] rp_010 sample 1 done (0.00/s, 206.3m elapsed)
+[42/51] rp_010 sample 2 done (0.00/s, 209.1m elapsed)
+[43/51] rp_011 sample 0 done (0.00/s, 215.5m elapsed)
+[44/51] rp_011 sample 1 done (0.00/s, 220.2m elapsed)
+[45/51] rp_011 sample 2 done (0.00/s, 226.4m elapsed)
+[46/51] co_006 sample 0 done (0.00/s, 232.7m elapsed)
+[47/51] co_006 sample 1 done (0.00/s, 239.6m elapsed)
+[48/51] co_006 sample 2 done (0.00/s, 246.3m elapsed)
+[49/51] co_008 sample 0 done (0.00/s, 253.6m elapsed)
+[50/51] co_008 sample 1 done (0.00/s, 261.0m elapsed)
+[51/51] co_008 sample 2 done (0.00/s, 268.8m elapsed)
+[done]
+[summary] 4/255 turns (1.6%) hit max_new_tokens while still inside <think> — these have NO final answer.

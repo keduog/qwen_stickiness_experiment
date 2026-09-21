@@ -1,0 +1,78 @@
+{
+  "n_conversations": 148,
+  "n_scored_turns": 692,
+  "n_unparsed_turns": 56,
+  "n_total_turns_in_file": 750,
+  "unparsed_rate": 0.07466666666666667,
+  "marginal_state_counts": {
+    "Useful": 341,
+    "Useless": 136,
+    "Harmful": 152,
+    "Unknown": 63
+  },
+  "transition_counts": {
+    "Useful": {
+      "Useful": 191,
+      "Useless": 28,
+      "Harmful": 38,
+      "Unknown": 22
+    },
+    "Useless": {
+      "Useful": 26,
+      "Useless": 71,
+      "Harmful": 3,
+      "Unknown": 3
+    },
+    "Harmful": {
+      "Useful": 14,
+      "Useless": 7,
+      "Harmful": 71,
+      "Unknown": 19
+    },
+    "Unknown": {
+      "Useful": 18,
+      "Useless": 0,
+      "Harmful": 27,
+      "Unknown": 6
+    }
+  },
+  "transition_probs": {
+    "Useful": {
+      "Useful": 0.6845878136200717,
+      "Useless": 0.1003584229390681,
+      "Harmful": 0.13620071684587814,
+      "Unknown": 0.07885304659498207
+    },
+    "Useless": {
+      "Useful": 0.2524271844660194,
+      "Useless": 0.6893203883495146,
+      "Harmful": 0.02912621359223301,
+      "Unknown": 0.02912621359223301
+    },
+    "Harmful": {
+      "Useful": 0.12612612612612611,
+      "Useless": 0.06306306306306306,
+      "Harmful": 0.6396396396396397,
+      "Unknown": 0.17117117117117117
+    },
+    "Unknown": {
+      "Useful": 0.35294117647058826,
+      "Useless": 0.0,
+      "Harmful": 0.5294117647058824,
+      "Unknown": 0.11764705882352941
+    }
+  },
+  "stickiness": {
+    "Useful": 0.6845878136200717,
+    "Useless": 0.6893203883495146,
+    "Harmful": 0.6396396396396397,
+    "Unknown": 0.11764705882352941
+  },
+  "mean_dwell_time_turns": {
+    "Useful": 2.2733333333333334,
+    "Useless": 2.0923076923076924,
+    "Unknown": 1.105263157894737,
+    "Harmful": 1.876543209876543
+  },
+  "absorbing_states": []
+}

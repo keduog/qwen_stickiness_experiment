@@ -1,0 +1,35 @@
+{
+  "condition": "jailbreak_prefix",
+  "per_state": {
+    "Useful": {
+      "state": "Useful",
+      "observed_diff_baseline_minus_perturbed": 0.34173067076292885,
+      "p_value_two_sided": 0.0001999600079984003,
+      "n_permutations": 5000
+    },
+    "Useless": {
+      "state": "Useless",
+      "observed_diff_baseline_minus_perturbed": -0.12244431753283835,
+      "p_value_two_sided": 0.19536092781443712,
+      "n_permutations": 5000
+    },
+    "Harmful": {
+      "state": "Harmful",
+      "observed_diff_baseline_minus_perturbed": -0.08616681197326359,
+      "p_value_two_sided": 0.3001399720055989,
+      "n_permutations": 5000
+    },
+    "Unknown": {
+      "state": "Unknown",
+      "observed_diff_baseline_minus_perturbed": -0.04901960784313725,
+      "p_value_two_sided": 0.5934813037392521,
+      "n_permutations": 5000
+    }
+  },
+  "contingency": {
+    "chi2": 118.63849944312517,
+    "p_value": 3.47575438706042e-18,
+    "dof": 15,
+    "n_transition_types": 16
+  }
+}

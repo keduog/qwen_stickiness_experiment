@@ -1,0 +1,67 @@
+nohup: ignoring input
+[load] Qwen/Qwen3-14B -> cuda:0
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:02<00:14,  2.14s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:04<00:12,  2.13s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:06<00:10,  2.12s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:08<00:08,  2.12s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:10<00:06,  2.12s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:12<00:04,  2.12s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:14<00:02,  2.12s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:15<00:00,  1.78s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:15<00:00,  1.99s/it]
+[1/60] th_006 sample 0 done (0.00/s, 6.6m elapsed)
+[2/60] th_006 sample 1 done (0.00/s, 13.3m elapsed)
+[3/60] th_006 sample 2 done (0.00/s, 20.1m elapsed)
+[4/60] th_007 sample 0 done (0.00/s, 26.5m elapsed)
+[5/60] th_007 sample 1 done (0.00/s, 33.4m elapsed) [1 TRUNCATED]
+[6/60] th_007 sample 2 done (0.00/s, 40.4m elapsed) [1 TRUNCATED]
+[7/60] th_008 sample 0 done (0.00/s, 47.2m elapsed) [1 TRUNCATED]
+[8/60] th_008 sample 1 done (0.00/s, 54.0m elapsed) [2 TRUNCATED]
+[9/60] th_008 sample 2 done (0.00/s, 61.0m elapsed) [3 TRUNCATED]
+[10/60] th_009 sample 0 done (0.00/s, 67.8m elapsed)
+[11/60] th_009 sample 1 done (0.00/s, 74.3m elapsed)
+[12/60] th_009 sample 2 done (0.00/s, 80.7m elapsed)
+[13/60] th_010 sample 0 done (0.00/s, 87.2m elapsed)
+[14/60] th_010 sample 1 done (0.00/s, 93.8m elapsed) [1 TRUNCATED]
+[15/60] th_010 sample 2 done (0.00/s, 100.5m elapsed)
+[16/60] th_011 sample 0 done (0.00/s, 106.2m elapsed) [1 TRUNCATED]
+[17/60] th_011 sample 1 done (0.00/s, 111.9m elapsed) [1 TRUNCATED]
+[18/60] th_011 sample 2 done (0.00/s, 118.1m elapsed) [1 TRUNCATED]
+[19/60] rp_006 sample 0 done (0.00/s, 124.7m elapsed)
+[20/60] rp_006 sample 1 done (0.00/s, 131.1m elapsed)
+[21/60] rp_006 sample 2 done (0.00/s, 137.8m elapsed)
+[22/60] rp_007 sample 0 done (0.00/s, 144.6m elapsed)
+[23/60] rp_007 sample 1 done (0.00/s, 151.4m elapsed)
+[24/60] rp_007 sample 2 done (0.00/s, 158.3m elapsed)
+[25/60] rp_008 sample 0 done (0.00/s, 163.8m elapsed)
+[26/60] rp_008 sample 1 done (0.00/s, 169.1m elapsed)
+[27/60] rp_008 sample 2 done (0.00/s, 174.6m elapsed)
+[28/60] rp_009 sample 0 done (0.00/s, 180.8m elapsed)
+[29/60] rp_009 sample 1 done (0.00/s, 187.2m elapsed)
+[30/60] rp_009 sample 2 done (0.00/s, 193.1m elapsed)
+[31/60] rp_010 sample 0 done (0.00/s, 199.2m elapsed)
+[32/60] rp_010 sample 1 done (0.00/s, 205.2m elapsed)
+[33/60] rp_010 sample 2 done (0.00/s, 211.7m elapsed)
+[34/60] rp_011 sample 0 done (0.00/s, 218.0m elapsed)
+[35/60] rp_011 sample 1 done (0.00/s, 224.7m elapsed)
+[36/60] rp_011 sample 2 done (0.00/s, 231.0m elapsed)
+[37/60] pa_006 sample 0 done (0.00/s, 236.6m elapsed)
+[38/60] pa_006 sample 1 done (0.00/s, 241.8m elapsed)
+[39/60] pa_006 sample 2 done (0.00/s, 246.3m elapsed)
+[40/60] pa_007 sample 0 done (0.00/s, 250.7m elapsed)
+[41/60] pa_007 sample 1 done (0.00/s, 255.2m elapsed)
+[42/60] pa_007 sample 2 done (0.00/s, 260.0m elapsed)
+[43/60] pa_008 sample 0 done (0.00/s, 264.5m elapsed)
+[44/60] pa_008 sample 1 done (0.00/s, 269.4m elapsed)
+[45/60] pa_008 sample 2 done (0.00/s, 273.7m elapsed)
+[46/60] pa_009 sample 0 done (0.00/s, 279.6m elapsed)
+[47/60] pa_009 sample 1 done (0.00/s, 285.4m elapsed)
+[48/60] pa_009 sample 2 done (0.00/s, 291.4m elapsed)
+[49/60] co_006 sample 0 done (0.00/s, 298.2m elapsed) [1 TRUNCATED]
+[50/60] co_006 sample 1 done (0.00/s, 304.8m elapsed)
+[51/60] co_006 sample 2 done (0.00/s, 311.7m elapsed) [1 TRUNCATED]
+[52/60] co_007 sample 0 done (0.00/s, 318.7m elapsed) [2 TRUNCATED]
+[53/60] co_007 sample 1 done (0.00/s, 325.5m elapsed) [2 TRUNCATED]
+[54/60] co_007 sample 2 done (0.00/s, 332.7m elapsed) [4 TRUNCATED]
+[55/60] co_008 sample 0 done (0.00/s, 339.5m elapsed) [1 TRUNCATED]
+[56/60] co_008 sample 1 done (0.00/s, 346.4m elapsed) [1 TRUNCATED]
+[57/60] co_008 sample 2 done (0.00/s, 353.1m elapsed)
+[58/60] co_009 sample 0 done (0.00/s, 359.9m elapsed) [1 TRUNCATED]
+[59/60] co_009 sample 1 done (0.00/s, 366.8m elapsed) [2 TRUNCATED]
+[60/60] co_009 sample 2 done (0.00/s, 373.4m elapsed) [1 TRUNCATED]
+[done]
+[summary] 28/300 turns (9.3%) hit max_new_tokens while still inside <think> — these have NO final answer.
+[WARNING] truncation rate above 5%. Increase --max_new_tokens and re-run.
